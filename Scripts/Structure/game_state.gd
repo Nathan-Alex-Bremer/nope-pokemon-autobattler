@@ -139,6 +139,9 @@ var type_effectiveness_dict = {
 @export var pokemon_list = {}
 
 # Pokemon on each team, maybe?
+@export var team_1_pokemon: PackedScene
+
+@export var team_2_pokemon: PackedScene
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
